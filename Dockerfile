@@ -14,10 +14,4 @@ RUN apt install -y libmysqld-dev
 RUN apt install -y git 
 
 
-RUN git clone https://github.com/kbengine/kbengine.git
-
-VOLUME ["/kbengine"]
-
-CMD ["sh", "/build.sh"]
-
 #USER docker
