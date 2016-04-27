@@ -1,4 +1,4 @@
-FROME yidianyi/ubuntu16.04
+FROM yidianyi/ubuntu16.04
 USER root
 #RUN groupadd -r docker -g 14433 && \
 #useradd -u 14431 -r -g swuser -d <homedir> -s /sbin/nologin -c "Docker image user" docker && \
